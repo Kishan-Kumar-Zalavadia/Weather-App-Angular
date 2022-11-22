@@ -5,6 +5,7 @@
     --yellow-1: #FAC742;
     --yellow-2: #fed66f;
     --white: #FFF;
+    --black: rgb(0, 0, 0);
     --grey-1: #EDEDED;
     --grey-2: #282828;
     --shadow-dark: rgba(0,0,0,0.3);
@@ -178,20 +179,20 @@ body{
 }
 
 .location{
-    color: var(--white);
+    color: var(--black);
     text-align: center;
     font-size: 1.2em;
 }
 
 .temparature{
-    color: var(--white);
+    color: var(--black);
     font-size: 4em;
     text-align: center;
     font-weight: 900;
 }
 
 .more-info-label{
-    color: var(--white);
+    color: var(--black);
 }
 
 .more-info-container{
@@ -225,7 +226,7 @@ body{
 }
 
 .info-block-label span{
-    color: var(--white);
+    color: var(--black);
     font-size: 0.8em;
 }
 
@@ -234,7 +235,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: var(--white);
+    color: var(--black);
 }
 
 .search{
